@@ -8,9 +8,6 @@ The licenses of each library on this repo are listed as follows.
 * libCozy: [dragon](https://github.com/cxnder/libCozy/blob/master/LICENSE)
 * liblayout: TBD
 
-### HASHBANG Productions
-* Cephei: [Apache License, version 2.0](https://github.com/hbang/libcephei/blob/master/LICENSE.md)
-
 ### Muirey03
 * libmryipc: [MIT](https://github.com/Muirey03/MRYIPC/blob/master/LICENSE)
 * libimagepicker: TBD
