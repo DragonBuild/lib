@@ -1,7 +1,7 @@
 # License
-There is no particular license on this repo. This repo hosts files in a plain text .tbd file format, containing only the minimum information needed by the linker. These aren’t necessarily under the same license as the original product. Headers hosted on this repo are still the copyright of the original owner, and are available in this repo either due to an open source license or through an agreement with the developer.
+There is no particular license on this repo. It hosts files in a plain text .tbd file format, containing only the minimum information needed by the linker, or as .dylibs. These aren’t necessarily under the same license as the original product.
 
-The licenses of each library on this repo are listed as follows.
+The licenses of each library on this repo are listed as follows:
 
 ## By Author
 ### Cynder
