@@ -1,0 +1,23 @@
+--- !tapi-tbd-v3
+archs:           [ arm64, arm64e ]
+uuids:           [ 'arm64: E6851805-4FE7-3B69-8C70-D119E52D5187', 'arm64e: 8173E737-2CD3-34D5-93E1-9E569D96E0B4' ]
+platform:        ios
+flags:           [ not_app_extension_safe ]
+install-name:    '/usr/lib/libmitsuha.dylib'
+current-version: 0
+compatibility-version: 0
+exports:         
+  - archs:           [ arm64, arm64e ]
+    symbols:         [ _one ]
+    objc-classes:    [ MSHAudioProcessing, MSHAudioSource, MSHAudioSourceASS, MSHBarView, 
+                       MSHDotView, MSHJelloLayer, MSHJelloView, MSHLineView, MSHView ]
+    objc-ivars:      [ MSHAudioProcessing.bufferLog2, MSHAudioProcessing.fftNormFactor, 
+                       MSHAudioProcessing.fftSetup, MSHAudioProcessing.numberOfFrames, 
+                       MSHAudioProcessing.numberOfFramesOver2, MSHAudioProcessing.out, 
+                       MSHAudioProcessing.outImaginary, MSHAudioProcessing.outReal, 
+                       MSHAudioProcessing.output, MSHAudioProcessing.window, MSHAudioSourceASS.connfd, 
+                       MSHAudioSourceASS.empty, MSHAudioSourceASS.forceDisconnect, 
+                       MSHView.bufferLog2, MSHView.cachedLength, MSHView.cachedNumberOfPoints, 
+                       MSHView.fftSetup, MSHView.lastUpdate, MSHView.mshHidden, MSHView.silentSince, 
+                       MSHView.window ]
+...
