@@ -1,0 +1,20 @@
+--- !tapi-tbd-v3
+archs:           [ arm64, arm64e ]
+uuids:           [ 'arm64: AA3C0D46-64E8-3559-A17F-BBD09283ED80', 'arm64e: 3C8CFB63-1F48-3BA6-8DF2-C0A57AA018FD' ]
+platform:        ios
+flags:           [ not_app_extension_safe ]
+install-name:    '@rpath/libsparkcolourpicker.dylib'
+current-version: 0
+compatibility-version: 0
+exports:         
+  - archs:           [ arm64, arm64e ]
+    objc-classes:    [ SCPFavouriteCollectionViewCell, SparkBrightnessGradientView, 
+                       SparkColourGradientView, SparkColourGridView, SparkColourLabel, 
+                       SparkColourPickerCell, SparkColourPickerCellViewController, 
+                       SparkColourPickerFavouritesView, SparkColourPickerPreviewView, 
+                       SparkColourPickerSlider, SparkColourPickerUtils, SparkColourPickerView, 
+                       SparkColourSlider ]
+    objc-ivars:      [ SparkBrightnessGradientView.cursorColour, SparkBrightnessGradientView.cursorWidth, 
+                       SparkColourGradientView.cursorColour, SparkColourGradientView.cursorWidth, 
+                       SparkColourSlider.cursorColour, SparkColourSlider.cursorWidth ]
+...
