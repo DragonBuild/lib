@@ -1,0 +1,12 @@
+--- !tapi-tbd-v3
+archs:           [ arm64, arm64e ]
+uuids:           [ 'arm64: 682BA4C6-DF0E-3F5F-B2BB-765824C4C5BD', 'arm64e: 49EB4F5A-8219-33DD-8FA2-08CCCCB991E1' ]
+platform:        ios
+flags:           [ not_app_extension_safe ]
+install-name:    '/usr/lib/libsparkapplist.dylib'
+current-version: 0
+compatibility-version: 0
+exports:         
+  - archs:           [ arm64, arm64e ]
+    objc-classes:    [ SparkAppItem, SparkAppList, SparkAppListCell, SparkAppListTableViewController ]
+...
