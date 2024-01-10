@@ -4,6 +4,10 @@ There is no particular license on this repo. It hosts files in a plain text .tbd
 The licenses of each library on this repo are listed as follows:
 
 ## By Author
+### CoolStar
+* libhooker: [3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause)
+* libblackjack: [3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause)
+
 ### Cynder
 * libCozy: [dragon](https://github.com/cxnder/libCozy/blob/master/LICENSE)
 * liblayout: TBD
