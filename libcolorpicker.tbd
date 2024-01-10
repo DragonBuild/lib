@@ -4,7 +4,7 @@ uuids:           [ 'armv7: 6389BEBC-1FB5-3EC0-9522-50F710A66B65', 'armv7s: 538A0
                    'arm64: DFD36D85-8465-3CDF-8A38-3D9282B15F0D', 'arm64e: 21DA25A7-5F90-37B2-9B7F-8E51E9A0FC8D' ]
 platform:        ios
 flags:           [ not_app_extension_safe ]
-install-name:    '/usr/lib/libcolorpicker.dylib'
+install-name:    '@rpath/libcolorpicker.dylib'
 current-version: 0
 compatibility-version: 0
 exports:         

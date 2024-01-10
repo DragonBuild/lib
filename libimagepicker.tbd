@@ -4,7 +4,7 @@ uuids:           [ 'armv7: 1C233446-EDDE-3E36-9493-5F4CE35CBC14', 'armv7s: 6C5D7
                    'arm64: 809902A8-9EA1-3669-91FB-6529E7A05E6D', 'arm64e: 7B2AA9BD-045B-3ADC-B3A0-B8D32259CA5C' ]
 platform:        ios
 flags:           [ not_app_extension_safe ]
-install-name:    '/usr/lib/libimagepicker.dylib'
+install-name:    '@rpath/libimagepicker.dylib'
 current-version: 0
 compatibility-version: 0
 exports:         

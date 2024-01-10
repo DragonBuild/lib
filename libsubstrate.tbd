@@ -4,7 +4,7 @@ uuids:           [ 'armv6: 1A3A2005-E2AF-3C6E-924D-0C947842CEF5', 'armv7: 6B2D1F
                    'arm64: C852CF3A-8981-3938-AFA5-50AF76D1299D', 'arm64e: 09F529C0-A31A-3282-80D8-2DCAD729DE3C' ]
 platform:        ios
 flags:           [ not_app_extension_safe ]
-install-name:    '/usr/lib/libsubstrate.dylib'
+install-name:    '@rpath/libsubstrate.dylib'
 current-version: 0
 compatibility-version: 0
 exports:         

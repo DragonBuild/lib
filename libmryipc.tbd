@@ -4,7 +4,7 @@ uuids:           [ 'armv7: 49501137-B411-30A4-A8FA-58F236489C94', 'arm64: F2AF9C
                    'arm64e: 10E86A16-C785-3DCA-9032-30C868623052' ]
 platform:        ios
 flags:           [ not_app_extension_safe ]
-install-name:    '/usr/lib/libmryipc.dylib'
+install-name:    '@rpath/libmryipc.dylib'
 current-version: 0
 compatibility-version: 0
 exports:         

@@ -4,7 +4,7 @@ uuids:           [ 'armv7: 672BBC86-7527-3022-8EFD-996A328DF1B0', 'arm64: A8C6AD
                    'arm64e: 12A1CCC0-F8BE-3001-8A65-CBD32EBB9FE3' ]
 platform:        ios
 flags:           [ not_app_extension_safe ]
-install-name:    '/usr/lib/libCozy.dylib'
+install-name:    '@rpath/libCozy.dylib'
 current-version: 0
 compatibility-version: 0
 exports:         
