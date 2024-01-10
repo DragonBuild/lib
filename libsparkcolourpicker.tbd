@@ -3,7 +3,7 @@ archs:           [ arm64, arm64e ]
 uuids:           [ 'arm64: AA3C0D46-64E8-3559-A17F-BBD09283ED80', 'arm64e: 3C8CFB63-1F48-3BA6-8DF2-C0A57AA018FD' ]
 platform:        ios
 flags:           [ not_app_extension_safe ]
-install-name:    '/usr/lib/libsparkcolourpicker.dylib'
+install-name:    '@rpath/libsparkcolourpicker.dylib'
 current-version: 0
 compatibility-version: 0
 exports:         

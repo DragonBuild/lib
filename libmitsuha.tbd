@@ -3,7 +3,7 @@ archs:           [ arm64, arm64e ]
 uuids:           [ 'arm64: E6851805-4FE7-3B69-8C70-D119E52D5187', 'arm64e: 8173E737-2CD3-34D5-93E1-9E569D96E0B4' ]
 platform:        ios
 flags:           [ not_app_extension_safe ]
-install-name:    '/usr/lib/libmitsuha.dylib'
+install-name:    '@rpath/libmitsuha.dylib'
 current-version: 0
 compatibility-version: 0
 exports:         
